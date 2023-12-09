@@ -52,4 +52,4 @@ testDiscovery:
 
 testRunnerCommand: mvn test -Dplatname=linux -Dmaven.repo.local=./.m2 dependency:resolve -DselectedTests=$tests
 
-jobLabel: ['ProjectB', 'Smoke', 'Low']
+jobLabel: ['ProjectB', 'Smoke', 'Medium']
